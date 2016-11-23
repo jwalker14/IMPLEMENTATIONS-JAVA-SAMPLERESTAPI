@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="restful:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/restful_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="restful/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="restful" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Jersey-2.2" />
+          <element id="library" level="project" name="org.json:json:20160810" />
+          <element id="library" level="application" name="mysql:mysql-connector-java:5.1.28" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
