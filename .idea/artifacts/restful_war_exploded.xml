@@ -11,6 +11,7 @@
           <element id="library" level="project" name="Jersey-2.2" />
           <element id="library" level="project" name="org.json:json:20160810" />
           <element id="library" level="application" name="mysql:mysql-connector-java:5.1.28" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.28" />
         </element>
       </element>
     </root>

@@ -13,7 +13,6 @@ public class ConnectionManager {
     private static String username = "root_remote";
     private static String password = config.getString("mysqlPass");
     private static Connection con;
-    private static String urlstring;
 
     public static Connection getConnection() {
         try {
@@ -38,6 +37,16 @@ public class ConnectionManager {
         }
         catch(Exception e){
             return null;
+        }
+    }
+
+    public int executeUpdate(String sql){
+        try{
+            PreparedStatement ps = getConnection().prepareStatement(sql);
+            return ps.executeUpdate(sql);
+        }
+        catch(Exception e){
+            return 0;
         }
     }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "java-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwalker14/IMPLEMENTATIONS-JAVA-SAMPLERESTAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwalker14/IMPLEMENTATIONS-JAVA-SAMPLERESTAPI/issues"
+  },
+  "homepage": "https://github.com/jwalker14/IMPLEMENTATIONS-JAVA-SAMPLERESTAPI#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-javac": "^1.1.0"
+  }
+}
